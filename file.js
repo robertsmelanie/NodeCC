@@ -49,9 +49,9 @@ if(fs.existsSync('./assets')){
                 }
 
 
-                }
-                }
-            })
+                
+                
+            
         }
     
 

@@ -1,6 +1,6 @@
 const http = require('http');
-const fs = require('fs')
-const _ = require('lodash')
+const fs = require('fs');
+const _ = require('lodash');
 
 
 const server = http.createServer((req, res) => {
@@ -52,12 +52,12 @@ console.log(num);
 
 
 const greet = _.once(() => {
-    console.log('hello')
-
+    console.log('hello');
+})
 
 greet();
 greet();
-});
+
 
 
 
